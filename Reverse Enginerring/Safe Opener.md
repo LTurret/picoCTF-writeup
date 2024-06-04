@@ -9,7 +9,7 @@ tags:
 
 # Solution
 
-This challenge provides a [[Java]] source file, you then open it and decode the hash inside the sub-function (which is `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz`), and that's the flag.
+This challenge provides a Java source file, you then open it and decode the hash inside the sub-function (which is `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz`), and that's the flag.
 
 The flag is :
 
