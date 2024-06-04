@@ -23,7 +23,7 @@ This corresponds to the line `v15 = wallet - *_num * inv.array[v14].price;`.
 
 After the purchase is done, it returns and replaces the original wallet value with the calculated one. This means if we input a negative number for purchasing, we are actually telling the shopkeeper to give us money (oh god, is this a robbery?).
 
-```go
+```cpp
     v9 = *_num;
     v10 = _choice;
     if ( (unsigned int)*_choice >= inv.len )
@@ -61,7 +61,7 @@ After the purchase is done, it returns and replaces the original wallet value wi
 
 After we got enough money to buy flag, we are able to solve this challenge.
 
-```bash
+```shell
 $ nc mercury.picoctf.net 10337
 Welcome to the market!
 =====================
@@ -99,6 +99,6 @@ $ python3 solve.py
 picoCTF{b4d_brogrammer_3da34a8f}
 ```
 
-# Reference
+## Reference
 
 [https://ctftime.org/writeup/28932](https://ctftime.org/writeup/28932)

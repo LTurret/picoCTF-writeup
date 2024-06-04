@@ -13,6 +13,6 @@ Challenge has a `.class` file; it is a program that was compiled using Java. The
 
 After we inspect function used to handle password check, the flag is inside of it.
 
-```
+```plain
 picoCTF{SAf3_0p3n3rr_y0u_solv3d_it_de45efd6}
 ```

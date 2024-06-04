@@ -31,11 +31,11 @@ $ py unpackme.flag.py
 b"\\npw = input('What\\\\'s the password? ')\\n\\nif pw == 'batteryhorse':\\n  print('picoCTF{175_chr157m45_85f5d0ac}')\\nelse:\\n  print('That password is incorrect.')\\n\\n"
 ```
 
-```
+```plain
 picoCTF{175_chr157m45_85f5d0ac}
 ```
 
-# Reference
+## Reference
 
 - [Fernet (symmetric encryption) — Cryptography 43.0.0.dev1 documentation](https://cryptography.io/en/latest/fernet/)
 - [Fernet (symmetric encryption) using Cryptography module in Python - GeeksforGeeks](https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/)
