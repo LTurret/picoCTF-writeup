@@ -12,8 +12,6 @@ tags:
 
 Just like [GDB baby step 1](./GDB%20baby%20step%201.md).
 
-[!NOTE] gdb processing
-
 ```shell
 (gdb) break main
 Breakpoint 1 at 0x40110e

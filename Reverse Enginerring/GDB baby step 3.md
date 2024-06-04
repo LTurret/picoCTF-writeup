@@ -14,7 +14,7 @@ This challenge is quite difficult and more advanced than [[GDB baby step 2]] and
 
 The challenge has already told us we should keep an eye on `0x2262c96b`, and `$rbp-0x4` is the only location that holds this value.
 
-```
+```plain
      0x401106 <main+0>         endbr64
      0x40110a <main+4>         push   rbp
      0x40110b <main+5>         mov    rbp, rsp
@@ -28,8 +28,8 @@ The challenge has already told us we should keep an eye on `0x2262c96b`, and `$r
 
 So, we move the locator to `0x401115 <main+15>` to see what's inside the `$rbp-0x4` with `x/4xb $rbp-0x4`.
 
-> [!NOTE] Command `x/4xb`
-> This is a convenient command used to check a register's value. Enter the command `x/` prefix, followed by `<integer>x<b|o|d|h>` to perform this action.
+> [!NOTE]  
+> Command `x/4xb` is a convenient command used to check a register's value. Enter the command `x/` prefix, followed by `<integer>x<b|o|d|h>` to perform this action.
 
 ![](https://i.imgur.com/yFsqQ6a.png)![](https://i.imgur.com/7DFYvTB.png)
 
