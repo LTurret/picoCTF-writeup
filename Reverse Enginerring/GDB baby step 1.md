@@ -27,5 +27,5 @@ And that's why we should run after `main` function with `next` command, and then
 
 the flag is: `picoCTF{549698}`
 
-> [!CAUTION] gdb and gef conflict
+> [!WARNING]  
 > Don't use gdb layout command while running both gdb TUI and gef TTY. gef TTY breaks TUI for no reason.
